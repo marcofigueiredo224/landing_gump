@@ -1,11 +1,15 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,600&display=swap');
+  @import url('stylo/header.css');
+  @import url('stylo/main.css');
 
 
-body{
+  body{
     font-family: "poppins";
     background-color: blue;
 }
 
 
-+
+
+
+
