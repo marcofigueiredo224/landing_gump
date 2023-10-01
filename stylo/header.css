@@ -1,0 +1,13 @@
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    max-height: 130px;
+    margin: 0 0 0 0;
+}
+
+.cabecalho_img{
+    width: 50%;
+    margin-top: -10%;
+}
+
