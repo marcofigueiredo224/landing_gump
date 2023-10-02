@@ -1,13 +1,29 @@
-.cabecalho{
+/* Estilos do cabeçalho */
+.cabecalho {
     display: flex;
-    flex-direction: row;
-    background-color: blue;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(6, 6, 59);
     max-height: 130px;
-    margin: 0 0 0 0;
+    margin-top: 0; /* Remova a margem superior */
+    margin-left: -10px; /* Remova a margem esquerda */
+    margin-right: -10px; /* Remova a margem direita */
 }
 
-.cabecalho_img{
+.cabecalho_img {
     width: 50%;
-    margin-top: -10%;
+    margin-top: 4%;
+}
+
+.cabecalho_menu {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Espaçamento entre os itens do menu */
+    margin-right: 20px; /* Ajuste a margem esquerda para mover o menu para a esquerda */
+}
+
+.cabecalho_menu a {
+    text-decoration: none;
+    color: white;
 }
 
