@@ -43,10 +43,12 @@
         text-align: center;
     }
 
-    
+}
 
 
-  
-
+@media screen and (min-width: 1400px) and (max-width: 1600px){
+  .cabecalho{
+   height: 100%;
+  }
 }
 
