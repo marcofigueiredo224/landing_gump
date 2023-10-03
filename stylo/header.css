@@ -27,3 +27,26 @@
     color: white;
 }
 
+.cabecalho_menu a:hover {
+    transition: 0.3s all;
+    color: rgb(107, 134, 211);
+}
+
+
+
+@media screen and (min-width: 300px) and (max-width: 600px){
+    .menu{
+        display: none;
+    }
+
+    .cabecalho_logo{
+        text-align: center;
+    }
+
+    
+
+
+  
+
+}
+
