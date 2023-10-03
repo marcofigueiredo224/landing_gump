@@ -99,4 +99,15 @@ span{
         font-size: 30px;
         
     }
+
+
+    .conteudo_form{
+        height: 100%;
+    }
+    .conteudo_formulario{
+        padding: 2em;
+    }
+    .formularios_campos{
+        padding: 1.2em;
+    }
 }
